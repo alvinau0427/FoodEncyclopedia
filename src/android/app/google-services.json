@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "706337829274",
+    "firebase_url": "https://foodangel-143607.firebaseio.com",
+    "project_id": "foodangel-143607",
+    "storage_bucket": "foodangel-143607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706337829274:android:445c42ccd4b603cf",
+        "android_client_info": {
+          "package_name": "com.foodangel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706337829274-qlkcjb9pnemuu76ok53dhofolavbvn2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodangel",
+            "certificate_hash": "6B7223C04F668219859914D980E9C57A6372FAF3"
+          }
+        },
+        {
+          "client_id": "706337829274-t90ppc85r52vo1frbdrmn6o21j158bjb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "706337829274-smoch9e16456km2dglv252ihqp552t8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1uib4elZNUs7ZC40HrYVV5CuopPK1ydk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

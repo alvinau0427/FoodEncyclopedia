@@ -1,0 +1,248 @@
+<resources>
+    <!-- Basic Settings -->
+    <string name="app_name">Food Encyclopedia</string>
+    <string name="description">Food Encyclopedia Application</string>
+    <string name="logo">食物大全</string>
+    <string name="sublogo">Food Encyclopedia</string>
+    <string name="version">version: 0.0.1</string>
+    <string name="settings">Settings</string>
+    <string name="exitMessage">Exit the application?</string>
+    <string name="loginMessage_yes">Yes</string>
+    <string name="loginMessage_no">No</string>
+    <string name="loginMessage">Login successfully</string>
+    <string name="loginMessage_Failed">Have not signed</string>
+    <string name="loginFailedMessage">Have been Logged</string>
+    <string name="logoutMessage">Logout successfully</string>
+    <string name="logoutConfirmMessage">Logout the application?</string>
+    <string name="logoutWarning">Please login system</string>
+    <string name="connect_failed_message">Data synchronization Failed. Please reconnect.</string>
+    <string name="loading">Connecting...</string>
+
+    <!-- Crash Program Page -->
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown Exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart Application</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close Application</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">List of error details:</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error Information</string>
+
+    <!-- Action Bar -->
+    <string name="actionbar_profile">Edit User Profile</string>
+    <string name="actionbar_settings">Edit System Settings</string>
+    <string name="actionbar_notification">Browse System Notification</string>
+    <string name="actionbar_profile_title">User Profile</string>
+    <string name="actionbar_settings_title">System Settings</string>
+    <string name="actionbar_notification_setting_title">System Notification</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_name">Food Encyclopedia Account</string>
+    <string name="navigation_email">foodencyclopedia@android.com</string>
+    <string name="navigation_item_title">Menu</string>
+    <string name="navigation_index">Home Page</string>
+    <string name="navigation_calendar">Event Calendar</string>
+    <string name="navigation_event">Event Overview</string>
+    <string name="navigation_location">Food-provided location Overview</string>
+    <string name="navigation_booking">Food Bank supplies Category</string>
+    <string name="navigation_boardgame">Food Bank supplies Category</string>
+    <string name="navigation_battle">Community Event Registration</string>
+    <string name="navigation_opinion">Opinion</string>
+    <string name="navigation_logIn">System Login</string>
+    <string name="navigation_google">Sign In Google Account</string>
+    <string name="navigation_facebook">Sign In Facebook Account</string>
+    <string name="navigation_notification">Send Notification</string>
+    <string name="navigation_logOut">System Logout</string>
+
+    <!-- Index Activity -->
+    <string name="indexActivity_event_title">Latest Event Information</string>
+    <string name="indexActivity_game_title">Latest Board Game Purchasing</string>
+    <string name="indexActivity_battle_title">Latest Rummage Game Battle</string>
+
+    <!-- Event Activity -->
+    <string name="eventActivity_name">Event Name</string>
+    <string name="eventActivity_detail">Event Detail</string>
+    <string name="eventActivity_more">More</string>
+    <string name="eventActivity_time">Time:</string>
+    <string name="eventActivity_book">Reservation</string>
+    <string name="eventActivity_noEvent_message">No events update</string>
+
+    <!-- BoardGame Activity -->
+    <string name="boardgameActivity_information">Product Information</string>
+    <string name="boardgameActivity_price">Price:</string>
+    <string name="boardgameActivity_dollarSign">HKD $</string>
+    <string name="boardgameActivity_quantity">Quantity:</string>
+    <string name="boardgameActivity_year">Release Year:</string>
+    <string name="boardgameActivity_players">Participants:</string>
+    <string name="boardgameActivity_limitation">Limit Age:</string>
+    <string name="boardgameActivity_description">Description</string>
+    <string name="boardgameActivity_addToCart">Place Reservation Order</string>
+    <string name="boardgameActivity_name">Name:</string>
+    <string name="boardgameActivity_nameHints">Please enter your name</string>
+    <string name="boardgameActivity_num">Amount:</string>
+    <string name="boardgameActivity_quantityHints">Please enter an amount</string>
+    <string name="boardgameActivity_tel">Tel: (For contact)</string>
+    <string name="boardgameActivity_telHints">Please enter your contact number</string>
+    <string name="boardgameActivity_telError">Please enter an 8-digit HK code format phone number</string>
+    <string name="boardgameActivity_booked">Reservation successfully</string>
+    <string name="boardgameActivity_bookFailed">Failed reservation, please check your input data</string>
+    <string name="boardgameActivity_quantitymessage">If you buy spot, you can make your payment in any working days;Otherwise, please make your payment after 14 working days</string>
+    <string name="boardgameActivity_type">Game Type</string>
+    <string name="boardgameActivity_ok">OK</string>
+    <string name="boardgameActivity_close">CLOSE</string>
+    <string name="boardgameActivity_search">Search:</string>
+    <string name="boardgameActivity_filter">Filter</string>
+    <string name="boardgameActivity_filterMessage">Do not find any board games</string>
+
+    <!-- Battle Activity -->
+    <string name="battleActivity_all">All</string>
+    <string name="battleActivity_game">Game:</string>
+    <string name="battleActivity_create">Create Room</string>
+    <string name="battleActivity_name">Battle Game Apply</string>
+    <string name="battleActivity_roomHoster">Creator:</string>
+    <string name="battleActivity_date">Date:</string>
+    <string name="battleActivity_time">Time:</string>
+    <string name="battleActivity_duration">Duration:</string>
+    <string name="battleActivity_place">Place:</string>
+    <string name="battleActivity_requirement">People:</string>
+    <string name="battleActivity_participant">Participant:</string>
+    <string name="battleActivity_book">Join</string>
+    <string name="battleActivity_full">Full</string>
+    <string name="battleActivity_confirmed">Confirmed</string>
+    <string name="battleActivity_cancelled">Cancel</string>
+    <string name="battleActivity_successful">Join room successfully</string>
+    <string name="battleActivity_failed">Room joined, please refresh the page</string>
+    <string name="battleActivity_hoster">You are creator who can not make a join action</string>
+    <string name="battleActivity_blacklisted">Sorry, this account has been frozen by system administrator</string>
+    <string name="battleActivity_cancellSuccessfully">Cancel successfully</string>
+    <string name="battleActivity_cancellFailed">Cancelled, Please refresh the page</string>
+    <string name="battleActivity_noBattle_message">There had no information of record</string>
+    <string name="battleActivity_dateSelect">Please select a date</string>
+    <string name="battleActivity_timeSelect">Please select the time</string>
+    <string name="battleActivity_to">to</string>
+    <string name="battleActivity_dateSelectFailed">Please select a date first</string>
+    <string name="battleActivity_timeSelectFailed">Please select a time first</string>
+    <string name="battleActivity_durationSelectFailed">Please select a duration first</string>
+    <string name="battleActivity_tel">Tel:</string>
+    <string name="battleActivity_tel_message">(For contact)</string>
+    <string name="battleActivity_cancel">Cancel</string>
+    <string name="battleActivity_openTime">Opening Hours:</string>
+    <string name="battleActivity_weekday">Mon-Fri:</string>
+    <string name="battleActivity_weekend">Sat-Sun:</string>
+    <string name="battleActivity_openSuccessfully">Successful</string>
+    <string name="battleActivity_openFailed">You had created an application in that day</string>
+    <string name="battleActivity_openFailed2Room">You had created two applications (Maximum)</string>
+    <string name="battleActivity_confirmMessage">Please check that all information has been entered correctly</string>
+    <string name="battleActivity_moreThanRemainderMessage">Warning: the number of participants has exceeded the upper limit</string>
+    <string name="battleActivity_ok">Confirm</string>
+    <string name="battleActivity_warnning">Warning</string>
+    <string name="battleActivity_warnningMessage">Do you really want to cancel the created game room?</string>
+    <string name="battleActivity_overOpeningHours">Over the PI Opening Hours</string>
+    <string name="battleActivity_lessThanGameLimit">The number of people is not enough</string>
+    <string name="battleActivity_telError">Please enter an 8-digit HK code format phone number</string>
+    <string name="battleActivity_BookDate">Please choose a date after today</string>
+    <string name="battleActivity_Price">*Price (per hour): HK$</string>
+    <string name="battleActivity_Time">**The value of minutes must be either 00 or 30</string>
+
+    <!-- Facebook Activity -->
+    <string name="facebookActivity_app_id">1751077158504743</string>
+
+    <!-- Google Server -->
+    <string name="server_client_id">706337829274-smoch9e16456km2dglv252ihqp552t8n.apps.googleusercontent.com</string>
+
+    <!-- Message Activity -->
+    <string name="messageActivity_head"><u>Setup Sync Notification</u></string>
+    <string name="messageActivity_subhead">Pop-up message to the application user</string>
+    <string name="messageActivity_hint_title">Title</string>
+    <string name="messageActivity_hint_message">Message</string>
+    <string name="messageActivity_success">Setup successfully</string>
+    <string name="messageActivity_titleName">【Food Encyclopedia】</string>
+    <string name="messageActivity_title">Title:</string>
+    <string name="messageActivity_message">Message:</string>
+    <string name="messageActivity_confirmMsg">\n\nConfirm the published information?</string>
+    <string name="messageActivity_msg_error">Please enter the information of both column</string>
+    <string name="messageActivity_yes">Yes</string>
+    <string name="messageActivity_no">No</string>
+
+    <!-- Settings Activity -->
+    <string name="settingActivity_person">Personal Information</string>
+    <string name="settingActivity_name">User Name:</string>
+    <string name="settingActivity_nickname">Nickname:</string>
+    <string name="settingActivity_nicknameDescription">(Be showed in the app)</string>
+    <string name="settingActivity_accountType">Account Type:</string>
+    <string name="settingActivity_accountType_value">Account</string>
+    <string name="settingActivity_tel">Contact Number:</string>
+    <string name="settingActivity_telDescription">(For contact)</string>
+    <string name="settingActivity_email">Email Address:</string>
+    <string name="settingActivity_not_define">Not Signed</string>
+    <string name="settingActivity_not_setting">Have Not Setup</string>
+    <string name="settingActivity_ok">OK</string>
+    <string name="settingActivity_isnotEmpty">The field can not be left blank, please enter again</string>
+    <string name="settingActivity_normal">Normal</string>
+    <string name="settingActivity_language">Language</string>
+    <string name="settingActivity_coming_soon">coming soon</string>
+    <string name="settingActivity_rating">Rate This Application</string>
+    <string name="settingActivity_rating_description">If you have any comments, welcome to Google play store for comment or give a score</string>
+    <string name="settingActivity_rating_dialog_title">Thank you for your support and kindness</string>
+    <string name="settingActivity_rating_dialog_description">If interested with our application or company, you can visit our Facebook page or call for 5188 6361.</string>
+    <string name="settingActivity_rating_dialog_intent">Google Play Store</string>
+    <string name="settingActivity_rating_dialog_back">Later</string>
+    <string name="settingActivity_notification">Notification</string>
+    <string name="settingActivity_event_notification">Alert</string>
+
+    <!-- Layout View -->
+    <string name="view_message_more">Loading...</string>
+    <string name="view_message_nomore">Message: Message has been the Latest</string>
+    <string name="view_message_success">Message: Data has been updated successfully</string>
+    <string name="view_message_error">Error: No network connection, Please connect again</string>
+    <string name="view_message_empty">Error: No data selected, Please connect again</string>
+
+    <!-- PrivateBooking Activity -->
+    <string name="error_message_empty">Please enter your email address</string>
+    <string name="error_message_date">Please enter a date</string>
+    <string name="error_message_dateValid">Please enter a valid date</string>
+    <string name="error_message_time">Please enter the time</string>
+    <string name="error_message_tel">Please enter your contact number</string>
+    <string name="error_message_people">Please enter the attendance (Maximum: 100)</string>
+    <string name="error_message_year">YYYY</string>
+    <string name="error_message_month">MM</string>
+    <string name="error_message_day">DD</string>
+    <string name="error_message_hour">00 to 23</string>
+    <string name="error_message_minutes">00 or 30</string>
+    <string name="error_message_durationSubmit">Please enter the hour in this booking</string>
+    <string name="privateBookingActivity_name">Email:</string>
+    <string name="privateBookingActivity_date">Date:</string>
+    <string name="privateBookingActivity_time">Time:</string>
+    <string name="privateBookingActivity_duration">Duration:</string>
+    <string name="privateBookingActivity_place">Place:</string>
+    <string name="privateBookingActivity_people">Attendance</string>
+    <string name="privateBookingActivity_tel">Tel</string>
+    <string name="privateBookingActivity_remark">Comments:</string>
+    <string name="privateBookingActivity_title">Price List</string>
+    <string name="privateBookingActivity_submit">Submit</string>
+    <string name="privateBookingActivity_successful">Reservation Successfully</string>
+
+    <!-- Message Box -->
+    <string name="messageBox_title">Announcement</string>
+    <string name="messageBox_Close">Close</string>
+
+    <array name="languageItem">
+        <item>Select System Language</item>
+        <item>Chinese (Traditional)</item>
+        <item>Chinese (Simplified)</item>
+        <item>English</item>
+    </array>
+
+    <array name="languageKey">
+        <item></item>
+        <item>zh</item>
+        <item>zh-rCN</item>
+        <item>en</item>
+    </array>
+    <string name="navigation_coupon">Coupon Overview</string>
+
+</resources>

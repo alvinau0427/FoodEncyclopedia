@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E7B9C</color>
+    <color name="colorPrimaryDark">#31627C</color>
+    <color name="colorAccent">#6495AF</color>
+    <color name="statusBarColor">#5188A5</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="app_background">#FFFFFF</color>
+    <color name="button_normal">#5E95B1</color>
+    <color name="button_pressed">#7EAAC0</color>
+    <color name="button_image_pressed">#7EAAC0</color>
+
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="theme_window_background">#FFF5F5F5</color>
+    <color name="theme_divider">#B6B6B6</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+    <color name="listbox_item1">#88BDE5</color>
+    <color name="listbox_item2">#93C3E7</color>
+    <color name="listbox_item3">#9FCAEA</color>
+    <color name="listbox_item4">#ABD0EC</color>
+    <color name="listbox_item5">#B7D7EF</color>
+    <color name="listbox_item6">#C3DEF2</color>
+    <color name="listbox_item7">#CFE4F4</color>
+    <color name="listbox_item8">#DBEBF7</color>
+    <color name="listbox_item9">#E7F1F9</color>
+    <color name="listbox_item10">#F3F8FC</color>
+    <color name="listbox_pressed">#FFFFFF</color>
+
+    <color name="calender_title">#6495AF</color>
+    <color name="calender_title_line">#739FB7</color>
+    <color name="calender_background">#83AABF</color>
+    <color name="calender_text">#FFFFFF</color>
+    <color name="calender_current_date">#3E7B9C</color>
+    <color name="calender_user_select">#4F84E5</color>
+    <color name="calender_event_node">#5188A5</color>
+
+    <color name="spinner">#696969</color>
+    <color name="hints_text">#7C7C7C</color>
+    <color name="dialog_pink">#4F84E5</color>
+    <color name="button_dark">#5D99A3</color>
+    <color name="button_light">#6EA4AD</color>
+    <color name="error_text">#D8000C</color>
+    <color name="wait_text">#00529B</color>
+    <color name="wait_back">#BDE5F8</color>
+    <color name="full_text">#D8000C</color>
+    <color name="full_back">#FFBABA</color>
+    <color name="confirmed_text">#4F8A10</color>
+    <color name="confirmed_back">#DFF2BF</color>
+    <color name="cancel_text">#9F6000</color>
+    <color name="cancel_back">#FEEFB3</color>
+
+    <color name="messageBox_text">#3333FF</color>
+    <color name="messageBox_back">#D1D1FF</color>
+
+    <color name="battle_backColor_odd">#77E5E5E5</color>
+    <color name="battle_backColor_even">#77D6DCEB</color>
+</resources>

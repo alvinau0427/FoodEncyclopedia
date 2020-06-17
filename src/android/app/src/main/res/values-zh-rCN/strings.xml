@@ -1,0 +1,248 @@
+<resources>
+    <!-- Basic Settings -->
+    <string name="app_name">食物大存</string>
+    <string name="description">Food Encyclopedia Application</string>
+    <string name="logo">食物大存</string>
+    <string name="sublogo">Food Encyclopedia</string>
+    <string name="version">version: 0.0.1</string>
+    <string name="settings">设定</string>
+    <string name="exitMessage">确定要离开?</string>
+    <string name="loginMessage_yes">是</string>
+    <string name="loginMessage_no">否</string>
+    <string name="loginMessage">成功登入系统</string>
+    <string name="loginMessage_Failed">没有登入系統</string>
+    <string name="loginFailedMessage">已经登入系统</string>
+    <string name="logoutMessage">成功登出系統</string>
+    <string name="logoutConfirmMessage">确定要登出系统?</string>
+    <string name="logoutWarning">请先登入系统</string>
+    <string name="connect_failed_message">连接伺服器失败! 请重新连接</string>
+    <string name="loading">连接中...</string>
+
+    <!-- Crash Program Page -->
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">应用程式发生意外的错误.\n为阁下带来不便之处, 敬请原谅.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">未知异常问题</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重新启动应用程序</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭应用程序</string>
+    <string name="customactivityoncrash_error_activity_error_details">错误详情</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">错误的详细信息列表:</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">已复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误讯息</string>
+
+    <!-- Action Bar -->
+    <string name="actionbar_profile">修改用户资料</string>
+    <string name="actionbar_settings">更改系统设定</string>
+    <string name="actionbar_notification">查看以往通知</string>
+    <string name="actionbar_profile_title">用户资料</string>
+    <string name="actionbar_settings_title">系统设定</string>
+    <string name="actionbar_notification_setting_title">设定讯息</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_name">Food Encyclopedia Account</string>
+    <string name="navigation_email">foodencyclopedia@android.com</string>
+    <string name="navigation_item_title">选项清单</string>
+    <string name="navigation_index">首页</string>
+    <string name="navigation_calendar">活动日历</string>
+    <string name="navigation_event">活动查询</string>
+    <string name="navigation_location">派发站查询</string>
+    <string name="navigation_coupon">最新优惠券查询</string>
+    <string name="navigation_booking">食物银行物资种类</string>
+    <string name="navigation_boardgame">食物银行物资种类</string>
+    <string name="navigation_battle">社区活动报名</string>
+    <string name="navigation_opinion">意见或问题</string>
+    <string name="navigation_logIn">登入系统</string>
+    <string name="navigation_google">以 Google 帐号登入</string>
+    <string name="navigation_facebook">以 Facebook 帐号登入</string>
+    <string name="navigation_notification">设定系统通知讯息</string>
+    <string name="navigation_logOut">登出系统</string>
+
+    <!-- Index Activity -->
+    <string name="indexActivity_event_title">最新活动推介</string>
+    <string name="indexActivity_game_title">最新食物物资</string>
+    <string name="indexActivity_battle_title">最新社区活动</string>
+
+    <!-- Event Activity -->
+    <string name="eventActivity_name">活动名称</string>
+    <string name="eventActivity_detail">活动详情</string>
+    <string name="eventActivity_more">更多详情</string>
+    <string name="eventActivity_time">时间:</string>
+    <string name="eventActivity_book">预约</string>
+    <string name="eventActivity_noEvent_message">没有任何活动更新</string>
+
+    <!-- BoardGame Activity -->
+    <string name="boardgameActivity_information">产品资讯</string>
+    <string name="boardgameActivity_price">价钱:</string>
+    <string name="boardgameActivity_dollarSign">HKD $</string>
+    <string name="boardgameActivity_quantity">货存量:</string>
+    <string name="boardgameActivity_year">生产年份:</string>
+    <string name="boardgameActivity_players">参加者数目:</string>
+    <string name="boardgameActivity_limitation">限制年龄:</string>
+    <string name="boardgameActivity_description">产品介绍</string>
+    <string name="boardgameActivity_addToCart">预订该产品</string>
+    <string name="boardgameActivity_name">姓名:</string>
+    <string name="boardgameActivity_nameHints">请输入你的名字</string>
+    <string name="boardgameActivity_num">数量:</string>
+    <string name="boardgameActivity_quantityHints">请输入购买数量</string>
+    <string name="boardgameActivity_tel">电话号码: (联络用途)</string>
+    <string name="boardgameActivity_telHints">請輸入電話號碼</string>
+    <string name="boardgameActivity_telError">请输入电话号码</string>
+    <string name="boardgameActivity_booked">预订完成</string>
+    <string name="boardgameActivity_bookFailed">预订不成功, 请确保所有资料正确无误</string>
+    <string name="boardgameActivity_quantitymessage">如需购买现货, 可于任何工作天至本公司付款及取货;\n如货存不足, 请于提交订单后十四个工作天至公司付款及取货</string>
+    <string name="boardgameActivity_type">产品类别</string>
+    <string name="boardgameActivity_ok">确定</string>
+    <string name="boardgameActivity_close">取消</string>
+    <string name="boardgameActivity_search">搜寻:</string>
+    <string name="boardgameActivity_filter">筛选</string>
+    <string name="boardgameActivity_filterMessage">没有任何适合这个类别的产品</string>
+
+    <!-- Battle Activity -->
+    <string name="battleActivity_all">所有</string>
+    <string name="battleActivity_game">游戏:</string>
+    <string name="battleActivity_create">十</string>
+    <string name="battleActivity_name">活动申请</string>
+    <string name="battleActivity_roomHoster">建立人:</string>
+    <string name="battleActivity_date">日期:</string>
+    <string name="battleActivity_time">时间:</string>
+    <string name="battleActivity_duration">时数:</string>
+    <string name="battleActivity_place">地点:</string>
+    <string name="battleActivity_requirement">人数:</string>
+    <string name="battleActivity_participant">参加者:</string>
+    <string name="battleActivity_book">参加</string>
+    <string name="battleActivity_full">额满</string>
+    <string name="battleActivity_confirmed">已确实</string>
+    <string name="battleActivity_cancelled">取消</string>
+    <string name="battleActivity_successful">讯息: 参加成功</string>
+    <string name="battleActivity_failed">已参加, 请更新页面</string>
+    <string name="battleActivity_hoster">你是建立者, 不能参加</string>
+    <string name="battleActivity_blacklisted">抱歉, 此帐号功能已被系统管理员冻结</string>
+    <string name="battleActivity_cancellSuccessfully">取消成功</string>
+    <string name="battleActivity_cancellFailed">已经取消, 请更新页面</string>
+    <string name="battleActivity_noBattle_message">没有任何活动记录资料</string>
+    <string name="battleActivity_dateSelect">请选择日期</string>
+    <string name="battleActivity_timeSelect">请选择时间</string>
+    <string name="battleActivity_to">至</string>
+    <string name="battleActivity_dateSelectFailed">请先选择日期</string>
+    <string name="battleActivity_timeSelectFailed">请先选择时间</string>
+    <string name="battleActivity_durationSelectFailed">请先选择时数</string>
+    <string name="battleActivity_tel">电话:</string>
+    <string name="battleActivity_tel_message">(联络用途)</string>
+    <string name="battleActivity_cancel">取消</string>
+    <string name="battleActivity_openTime">开放时间:</string>
+    <string name="battleActivity_weekday">一至五:</string>
+    <string name="battleActivity_weekend">六至日:</string>
+    <string name="battleActivity_openSuccessfully">完成</string>
+    <string name="battleActivity_openFailed">你已在当日创建了一次申请</string>
+    <string name="battleActivity_openFailed2Room">你已创建了两次申请</string>
+    <string name="battleActivity_confirmMessage">请检查所有已输入的资料是否正确</string>
+    <string name="battleActivity_moreThanRemainderMessage">参加人数已超出上限</string>
+    <string name="battleActivity_ok">确定</string>
+    <string name="battleActivity_warnning">警告</string>
+    <string name="battleActivity_warnningMessage">确定要移除一个已公开的活动?</string>
+    <string name="battleActivity_overOpeningHours">已超过了开放时间</string>
+    <string name="battleActivity_lessThanGameLimit">人数少于该活动限制</string>
+    <string name="battleActivity_telError">请输入一个香港区号格式的电话号码</string>
+    <string name="battleActivity_BookDate">请选择明天或以后作为参与日期</string>
+    <string name="battleActivity_Price">*参加费 (一小时): HK$</string>
+    <string name="battleActivity_Time">**分钟只可以是 00 或 30</string>
+
+    <!-- Facebook Activity -->
+    <string name="facebookActivity_app_id">1749626411963598</string>
+
+    <!-- Google Server -->
+    <string name="server_client_id">706337829274-smoch9e16456km2dglv252ihqp552t8n.apps.googleusercontent.com</string>
+
+    <!-- Message Activity -->
+    <string name="messageActivity_head"><u>设置同步通知信息</u></string>
+    <string name="messageActivity_subhead">显示弹出消息给应用程式用户</string>
+    <string name="messageActivity_hint_title">标题</string>
+    <string name="messageActivity_hint_message">讯息</string>
+    <string name="messageActivity_success">成功发表讯息</string>
+    <string name="messageActivity_titleName">【Food Encyclopedia】</string>
+    <string name="messageActivity_title">标题:</string>
+    <string name="messageActivity_message">讯息:</string>
+    <string name="messageActivity_confirmMsg">\n\n确定发表讯息?</string>
+    <string name="messageActivity_msg_error">请输入任何内容于栏位内!</string>
+    <string name="messageActivity_yes">是</string>
+    <string name="messageActivity_no">否</string>
+
+    <!-- Settings Activity -->
+    <string name="settingActivity_person">帐户个人资料</string>
+    <string name="settingActivity_name">帐号名称:</string>
+    <string name="settingActivity_nickname">昵称:</string>
+    <string name="settingActivity_nicknameDescription">(系统用户称呼)</string>
+    <string name="settingActivity_accountType">帐号类型:</string>
+    <string name="settingActivity_accountType_value">帐号</string>
+    <string name="settingActivity_tel">联络电话:</string>
+    <string name="settingActivity_telDescription">(系统管理人联络用户)</string>
+    <string name="settingActivity_email">电邮地址:</string>
+    <string name="settingActivity_not_define">尚未登入</string>
+    <string name="settingActivity_not_setting">尚未设定</string>
+    <string name="settingActivity_ok">确定</string>
+    <string name="settingActivity_isnotEmpty">栏位不能漏空, 请重新输入</string>
+    <string name="settingActivity_normal">一般设定</string>
+    <string name="settingActivity_language">语言</string>
+    <string name="settingActivity_coming_soon">coming soon</string>
+    <string name="settingActivity_rating">评分</string>
+    <string name="settingActivity_rating_description">如若对本应用程式有任何意见, 欢迎至Google play store留言或评分</string>
+    <string name="settingActivity_rating_dialog_title">感谢你有评分的意欲</string>
+    <string name="settingActivity_rating_dialog_description">如有兴趣了解更多, 欢迎浏览我们的Facebook专页或致电1234 5678查询.</string>
+    <string name="settingActivity_rating_dialog_intent">前往Google Play Store</string>
+    <string name="settingActivity_rating_dialog_back">稍后</string>
+    <string name="settingActivity_notification">通知设定</string>
+    <string name="settingActivity_event_notification">显示讯息通知</string>
+
+    <!-- Layout View -->
+    <string name="view_message_more">更多资讯加载中...</string>
+    <string name="view_message_nomore">讯息: 没有更多资讯更新</string>
+    <string name="view_message_success">讯息: 已成功更新资料</string>
+    <string name="view_message_error">警告: 网络错误, 请点击重试</string>
+    <string name="view_message_empty">警告: 暂无数据, 请重新尝试</string>
+
+    <!-- PrivateBooking Activity -->
+    <string name="error_message_empty">请输入你的电邮地址</string>
+    <string name="error_message_date">请输入日期</string>
+    <string name="error_message_dateValid">请输入正确的日期</string>
+    <string name="error_message_time">请输入时间</string>
+    <string name="error_message_tel">请输入你的电话号码</string>
+    <string name="error_message_people">请输入预约人数, 最大容纳人数为100人</string>
+    <string name="error_message_year">YYYY</string>
+    <string name="error_message_month">MM</string>
+    <string name="error_message_day">DD</string>
+    <string name="error_message_hour">00至23</string>
+    <string name="error_message_minutes">00或30</string>
+    <string name="error_message_durationSubmit">请输入预约时数</string>
+    <string name="privateBookingActivity_name">电邮地址:</string>
+    <string name="privateBookingActivity_date">日期:</string>
+    <string name="privateBookingActivity_time">时间:</string>
+    <string name="privateBookingActivity_duration">时数:</string>
+    <string name="privateBookingActivity_place">地点:</string>
+    <string name="privateBookingActivity_people">人数</string>
+    <string name="privateBookingActivity_tel">电话号码</string>
+    <string name="privateBookingActivity_remark">留言:</string>
+    <string name="privateBookingActivity_title">场地价目</string>
+    <string name="privateBookingActivity_submit">提交</string>
+    <string name="privateBookingActivity_successful">预约成功</string>
+
+    <!-- Message Box -->
+    <string name="messageBox_title">公告</string>
+    <string name="messageBox_Close">关闭</string>
+
+    <array name="languageItem">
+        <item>请选择系统语言</item>
+        <item>中文(繁体)</item>
+        <item>中文(简体)</item>
+        <item>英文</item>
+    </array>
+
+    <array name="languageKey">
+        <item></item>
+        <item>zh</item>
+        <item>zh-rCN</item>
+        <item>en</item>
+    </array>
+
+</resources>

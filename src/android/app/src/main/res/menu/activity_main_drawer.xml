@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/navigation_item_title">
+            <menu>
+                <item
+                    android:id="@+id/nav_index"
+                    android:icon="@drawable/ic_nav_home_list"
+                    android:title="@string/navigation_index" />
+                <item
+                    android:id="@+id/nav_coupon"
+                    android:icon="@drawable/ic_nav_coupon"
+                    android:title="@string/navigation_coupon" />
+                <item
+                    android:id="@+id/nav_event"
+                    android:icon="@drawable/ic_nav_event"
+                    android:title="@string/navigation_event" />
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/ic_nav_location"
+                    android:title="@string/navigation_location" />
+                <item
+                    android:id="@+id/nav_boardgame"
+                    android:icon="@drawable/ic_nav_item"
+                    android:title="@string/navigation_boardgame" />
+                <item
+                    android:id="@+id/nav_battle"
+                    android:icon="@drawable/ic_nav_join"
+                    android:title="@string/navigation_battle" />
+                <item
+                    android:id="@+id/nav_opinion"
+                    android:icon="@drawable/ic_nav_report"
+                    android:title="@string/navigation_opinion" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/navigation_logIn">
+            <menu>
+                <item
+                    android:id="@+id/nav_google"
+                    android:icon="@drawable/ic_nav_google"
+                    android:title="@string/navigation_google" />
+                <item
+                    android:id="@+id/nav_facebook"
+                    android:icon="@drawable/ic_nav_facebook"
+                    android:title="@string/navigation_facebook" />
+                <item
+                    android:id="@+id/nav_notification"
+                    android:icon="@drawable/ic_nav_notification"
+                    android:title="@string/navigation_notification" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/navigation_logOut">
+            <menu>
+                <item
+                    android:id="@+id/nav_logOut"
+                    android:icon="@drawable/ic_nav_logout"
+                    android:title="@string/navigation_logOut" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
