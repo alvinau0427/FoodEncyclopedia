@@ -1,22 +1,52 @@
 # ![Logo](./demo/img_logo.png) FoodEncyclopedia
 
-> The China Mainland, Hong Kong and Macao Digital Economy Innovation and Entrepreneurship Competition 2016
+> **2016 Digital Economy Innovation and Entrepreneurship Competition (Mainland, HK & Macao)**
+>
+> A cross-platform food bank management ecosystem comprising a native Android application and a centralized CMS, designed to streamline emergency dietary assistance and food distribution for citizens in need.
 
-> Android Application with CMS website (Content Management System)
-
-[![Build Status](https://travis-ci.com/alvinau0427/FoodEncyclopedia.svg?branch=master)](https://travis-ci.org/alvinau0427/FoodEncyclopedia)
+[![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)](#) &nbsp;
+[![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white)](#) &nbsp;
+[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white)](#) &nbsp;
+[![JavaScript](https://img.shields.io/badge/Javacript-F9AB00?logo=javascript&logoColor=white)](#) &nbsp;
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) &nbsp;
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#) &nbsp;
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-## Getting Started
-- Food Encyclopedia is a project to help citizens who have difficulty coping with daily food expenditures. It provides emergency and short-term dietary assistance. The dry food they supply includes rice, noodles, canned food, biscuits, and milk powder. Because these are the necessities of every family, many citizens want to know the more relevant information, such as the type of dry food, inventory, distribution station information. Because of this, we have developed a food bank management system through which citizens can query information about all food or delivery stations, as well as some back-up services.
+## Project Vision & Background
+**FoodEncyclopedia** was developed to bridge the information gap between food banks and citizens facing economic hardship. By digitizing inventory and distribution data, the system ensures that essential supplies — such as rice, noodles, and milk powder, etc., reach those in need efficiently.
 
-## Features
-- Food enquiries
-- Food distribution station enquiries with Google map
-- Discount enquiries with QR code release
-- Event enquiries and registration
-- Notification
-- Customer Service
+The project addresses three core pillars:
+1. **Transparency:** Real-time visibility into dry food inventory.
+2. **Accessibility:** Easy location of distribution centers via integrated mapping.
+3. **Engagement:** Direct registration for community food events and assistance programs.
+
+## Key Features
+### Android Application (User End)
+* **Smart Food Enquiries:** Detailed search and filter options for available dry food categories and stock levels.
+* **Geolocation Services:** Integrated **Google Maps API** to locate the nearest food distribution stations.
+* **Smart Coupons:** QR-code based discount system for redeeming food-related offers.
+* **Event Management:** In-app registration for community events and workshops.
+* **Instant Notifications:** Real-time push alerts for urgent food distribution updates.
+* **Interactive Customer Service:** Integrated support module for user enquiries.
+
+### CMS Portal (Administrator End)
+* **Inventory Management:** Centralized database to update food types and stock quantities.
+* **Station Coordination:** Manage distribution point information and operating hours.
+* **Analytics & Reporting:** Monitor event registrations and aid distribution efficiency.
+
+## Installation & Deployment
+### Android App
+1. Clone the repository.
+2. Open the project in **Android Studio**.
+3. Build and run on an emulator or physical device (Minimum SDK: API 19+).
+
+### CMS Website
+1. Upload the `/cms` directory to your web server (XAMPP/WAMP/LAMP).
+2. Import the provided SQL database file via phpMyAdmin.
+3. Configure `config.php` with your database credentials.
+
+> [!TIP]
+> **Windows Users:** For local testing of the CMS, ensure Apache and MySQL are active in your XAMPP Control Panel.
 
 ## Screenshots
 | Home Page     | Event Page    |
